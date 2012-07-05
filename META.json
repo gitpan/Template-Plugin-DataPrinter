@@ -1,0 +1,63 @@
+{
+   "abstract" : "Template Toolkit dumper plugin using Data::Printer",
+   "author" : [
+      "Stephen Thirlwall <sdt@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Template-Plugin-DataPrinter",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Data::Printer" : "0",
+            "HTML::FromANSI::Tiny" : "0",
+            "Hash::Merge::Simple" : "0",
+            "Template::Plugin" : "0",
+            "base" : "0",
+            "perl" : "5.008",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Exporter" : "0",
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "HTML::Entities" : "0",
+            "Template" : "0",
+            "Term::ANSIColor" : "0",
+            "Test::Builder" : "0",
+            "Test::More" : "0",
+            "Test::NoWarnings" : "0"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-Template-Plugin-DataPrinter@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-DataPrinter"
+      },
+      "homepage" : "http://search.cpan.org/dist/Template-Plugin-DataPrinter",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sdt/template-plugin-dataprinter.git",
+         "web" : "https://github.com/sdt/template-plugin-dataprinter"
+      }
+   },
+   "version" : "0.001"
+}
+
