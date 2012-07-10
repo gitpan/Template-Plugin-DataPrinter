@@ -45,7 +45,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-Template-Plugin-DataPrinter@rt.cpan.org",
@@ -58,6 +58,6 @@
          "web" : "https://github.com/sdt/template-plugin-dataprinter"
       }
    },
-   "version" : "0.001"
+   "version" : "0.010"
 }
 

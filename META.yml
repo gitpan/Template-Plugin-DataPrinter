@@ -34,4 +34,4 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-DataPrinter
   homepage: http://search.cpan.org/dist/Template-Plugin-DataPrinter
   repository: git://github.com/sdt/template-plugin-dataprinter.git
-version: 0.001
+version: 0.010
