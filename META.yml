@@ -15,7 +15,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -34,4 +34,4 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-DataPrinter
   homepage: http://search.cpan.org/dist/Template-Plugin-DataPrinter
   repository: git://github.com/sdt/template-plugin-dataprinter.git
-version: 0.010
+version: 0.011
