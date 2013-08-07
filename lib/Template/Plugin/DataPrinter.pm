@@ -4,7 +4,7 @@ use warnings;
 use base 'Template::Plugin';
 
 # ABSTRACT: Template Toolkit dumper plugin using Data::Printer
-our $VERSION = '0.011'; # VERSION
+our $VERSION = '0.012'; # VERSION
 
 use HTML::FromANSI::Tiny ();
 use Hash::Merge::Simple qw< merge >;
@@ -60,7 +60,7 @@ sub _css {
 
 1;
 
-
+__END__
 
 =pod
 
@@ -70,7 +70,7 @@ Template::Plugin::DataPrinter - Template Toolkit dumper plugin using Data::Print
 
 =head1 VERSION
 
-version 0.011
+version 0.012
 
 =head1 SYNOPSIS
 
@@ -205,7 +205,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
